@@ -1,0 +1,26 @@
+.product-card{
+    height: 20rem;
+    width: 15rem;
+    box-shadow: 0px 0px 15px 0px black
+}
+.product-image{
+    height:90%;
+}
+.product-btn{
+    height: 10%;
+    background-color: black;
+}
+.product-btn button{
+    width: 100%;
+    color: whitesmoke;
+    outline: none;
+    background-color: grey;
+}
+.product-image img{
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+.product-btn,.product-card,.product-image{
+    border: 1px solid;
+}
